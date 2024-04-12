@@ -24,7 +24,7 @@ command: |
   cd llm-foundry/scripts
   composer train/train.py /mnt/config/parameters.yaml
 
-image: mosaicml/pytorch:1.13.1_cu117-python3.10-ubuntu20.04 # Use the Docker image provided by MosaicML
+image: mosaicml/pytorch:2.2.1_cu121-python3.11-ubuntu20.04 # Use the Docker image provided by MosaicML
 
 # The parameters section is mounted to /mnt/config/parameters.yaml in the container
 # The mounted file is then passed directly to the train.py script

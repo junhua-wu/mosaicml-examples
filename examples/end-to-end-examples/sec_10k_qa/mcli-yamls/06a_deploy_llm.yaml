@@ -14,7 +14,7 @@ replicas: 1 # Number of replicas to use for this run
 integrations:
 # Clone and install the examples repo so we can use the deployment helper from it
 - integration_type: git_repo
-  git_repo: mosaicml/examples
+  git_repo: junhua-wu/mosaicml-examples
   git_branch: main
   ssh_clone: false
 # Clone the llm-foundry repo so we can use the HF to FasterTransformer convert script from it

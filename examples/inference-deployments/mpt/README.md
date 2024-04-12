@@ -21,7 +21,7 @@ You’ll find in this folder:
 
 ## Setup
 
-Please follow instructions in the Inference Deployments [README](https://github.com/mosaicml/examples/tree/main/examples/inference-deployments/README.md) and make sure
+Please follow instructions in the Inference Deployments [README](https://github.com/junhua-wu/mosaicml-examples/tree/main/examples/inference-deployments/README.md) and make sure
 - You have access to our inference service.
 - Your dev environment is set up with `mcli`.
 - You have a cluster to work with.

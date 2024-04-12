@@ -18,9 +18,9 @@ Once you have access,
 ## Content
 We have provided examples for 3 different model types in this repo:
 
-1. [MPT series](https://github.com/mosaicml/examples/tree/main/examples/inference-deployments/mpt)
-2. [Instructor](https://github.com/mosaicml/examples/tree/main/examples/inference-deployments/instructor)
-3. [Mosaic diffusion](https://github.com/mosaicml/examples/tree/main/examples/inference-deployments/mosaic_diffusion)
+1. [MPT series](https://github.com/junhua-wu/mosaicml-examples/tree/main/examples/inference-deployments/mpt)
+2. [Instructor](https://github.com/junhua-wu/mosaicml-examples/tree/main/examples/inference-deployments/instructor)
+3. [Mosaic diffusion](https://github.com/junhua-wu/mosaicml-examples/tree/main/examples/inference-deployments/mosaic_diffusion)
 
 Each of these model directories have model handlers and yaml files.
 

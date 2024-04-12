@@ -1,5 +1,5 @@
 name: stable-diffusion-finetune
-image: mosaicml/pytorch:1.13.1_cu117-python3.10-ubuntu20.04
+image: mosaicml/pytorch:2.2.1_cu121-python3.11-ubuntu20.04
 compute:
   gpus: 8  # Number of GPUs to use
 
@@ -9,7 +9,7 @@ compute:
 
 integrations:
 - integration_type: git_repo
-  git_repo: mosaicml/examples
+  git_repo: junhua-wu/mosaicml-examples
   git_commit: fa3d60e71f1a9b10dc8b0c6b3933d55849234def
   ssh_clone: false
 command: |

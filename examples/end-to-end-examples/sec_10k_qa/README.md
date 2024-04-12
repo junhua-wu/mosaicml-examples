@@ -50,7 +50,7 @@ Once you have done all of this, you should be ready to get started with this tut
 
 All that is needed for local setup is to clone this repository and install a few dependencies, as the only thing you will be running locally is the final application. Everything else will be run through the MosaicML platform.
 ```bash
-git clone https://github.com/mosaicml/examples
+git clone https://github.com/junhua-wu/mosaicml-examples
 cd cd examples/examples/end-to-end-examples/sec_10k_qa
 python -m venv examples-10k-venv
 source examples-10k-venv/bin/activate

@@ -17,7 +17,7 @@
     <a href="https://join.slack.com/t/mosaicml-community/shared_invite/zt-w0tiddn9-WGTlRpfjcO9J5jyrMub1dg">
         <img alt="Chat @ Slack" src="https://img.shields.io/badge/slack-chat-2eb67d.svg?logo=slack">
     </a>
-    <a href="https://github.com/mosaicml/examples/blob/main/LICENSE">
+    <a href="https://github.com/junhua-wu/mosaicml-examples/blob/main/LICENSE">
         <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-green.svg?logo=slack">
     </a>
 </p>
@@ -31,7 +31,7 @@ This folder contains starter code for finetuning Stable Diffusion. You can easil
 ## Clone the repo and install requirements
 
 ```bash
-git clone https://github.com/mosaicml/examples.git
+git clone https://github.com/junhua-wu/mosaicml-examples.git
 cd examples/end-to-end-examples/stable_diffusion
 pip install -r requirements.txt
 ```

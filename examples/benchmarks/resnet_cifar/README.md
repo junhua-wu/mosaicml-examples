@@ -19,7 +19,7 @@
     <a href="https://join.slack.com/t/mosaicml-community/shared_invite/zt-w0tiddn9-WGTlRpfjcO9J5jyrMub1dg">
         <img alt="Chat @ Slack" src="https://img.shields.io/badge/slack-chat-2eb67d.svg?logo=slack">
     </a>
-    <a href="https://github.com/mosaicml/examples/blob/main/LICENSE">
+    <a href="https://github.com/junhua-wu/mosaicml-examples/blob/main/LICENSE">
         <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-green.svg?logo=slack">
     </a>
 </p>
@@ -57,7 +57,7 @@ cluster: # Add the name of the cluster to use for this run
 gpu_type: # Type of GPU to use; usually a100_40gb
 integrations:
   - integration_type: git_repo
-    git_repo: mosaicml/examples # Replace with your fork to use custom code
+    git_repo: junhua-wu/mosaicml-examples # Replace with your fork to use custom code
     git_branch: main # Replace with your branch to use custom code
     ssh_clone: false # Should be true if using a private repo
 ```
@@ -94,7 +94,7 @@ Just clone this repo and install the requirements. If you want to customize the
 code, first fork this repo on GitHub and clone your fork instead.
 
 ```bash
-git clone https://github.com/mosaicml/examples.git
+git clone https://github.com/junhua-wu/mosaicml-examples.git
 cd examples/benchmarks/resnet_cifar
 pip install -r requirements.txt
 ```

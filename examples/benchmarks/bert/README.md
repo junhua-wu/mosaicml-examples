@@ -42,7 +42,7 @@ You'll find in this folder:
 We recommend the following environment:
 
 - A system with NVIDIA GPU(s)
-- A Docker container running [MosaicML's PyTorch base image](https://hub.docker.com/r/mosaicml/pytorch/tags): `mosaicml/pytorch:1.13.1_cu117-python3.10-ubuntu20.04`.
+- A Docker container running [MosaicML's PyTorch base image](https://hub.docker.com/r/mosaicml/pytorch/tags): `mosaicml/pytorch:2.2.1_cu121-python3.11-ubuntu20.04`.
 
 This recommended Docker image comes pre-configured with the following dependencies:
 
@@ -56,7 +56,7 @@ This recommended Docker image comes pre-configured with the following dependenci
 To get started, clone this repo and install the requirements:
 
 ```bash
-git clone https://github.com/mosaicml/examples.git
+git clone https://github.com/junhua-wu/mosaicml-examples.git
 cd examples/benchmarks/bert
 pip install -r requirements.txt  # or pip install -r requirements-cpu.txt if no NVIDIA GPU
 ```

@@ -25,4 +25,4 @@ command: |
     --out_root CLOUD://BUCKET/support-bot-demo/data/composer_30b/ \
     --in_root retrieval_data/composer
 
-image: mosaicml/pytorch:1.13.1_cu117-python3.10-ubuntu20.04 # Use the Docker image provided by MosaicML
+image: mosaicml/pytorch:2.2.1_cu121-python3.11-ubuntu20.04 # Use the Docker image provided by MosaicML

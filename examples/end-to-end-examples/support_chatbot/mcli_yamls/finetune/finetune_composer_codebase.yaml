@@ -26,7 +26,7 @@ command: |
   composer train/train.py /mnt/config/parameters.yaml || (echo "Command failed - killing python" && pkill python && exit 1)
 
 #image: "mosaicml/llm-foundry:2.0.1_cu118-latest"
-image: mosaicml/pytorch:1.13.1_cu117-python3.10-ubuntu20.04
+image: mosaicml/pytorch:2.2.1_cu121-python3.11-ubuntu20.04
 
 # The parameters section is mounted to /mnt/config/parameters.yaml in the container
 # The mounted file is then passed directly to the train.py script

@@ -8,7 +8,7 @@ command: |
   export PYTHONPATH=$PYTHONPATH:/code/examples
 integrations:
 - integration_type: git_repo
-  git_repo: mosaicml/examples
+  git_repo: junhua-wu/mosaicml-examples
   ssh_clone: false
   git_commit: 63b6e009a36768fcc295c6676c7a775715f45e91
 - integration_type: pip_packages
