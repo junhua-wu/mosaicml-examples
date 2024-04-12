@@ -31,14 +31,14 @@ image: mosaicml/pytorch:2.2.1_cu121-python3.11-ubuntu20.04 # Use the Docker imag
 # See LLM-foundry llmfoundry/scripts/train.py to see how the parameters are used in code
 parameters:
   # Path to load the weights from the previous step
-  load_path: CLOUD://BUCKET_NAME/sec_10k_demo/checkpoints/PREVIOUS_RUN_NAME/latest-rank0.pt.symlink
+  load_path: s3://s3-bucket-jh/sec_10k_demo/checkpoints/PREVIOUS_RUN_NAME/latest-rank0.pt.symlink
   load_weights_only: true # Only load the weights for finetuning, discarding any other state from previous training
 
   # Checkpoint to local filesystem or remote object store
   save_interval: 500ba # How frequently to save checkpoints
   # save_num_checkpoints_to_keep: 1  # Important, this cleans up checkpoints saved to DISK
-  # save_folder: ./{run_name}/checkpoints
-  save_folder: CLOUD://BUCKET_NAME/sec_10k_demo/checkpoints/{run_name}/
+  # save_folder: ./{run_name}/checkpointss
+  save_folder: s3://s3-bucket-jh/sec_10k_demo/checkpoints/{run_name}/
   dist_timeout: 60000 # Set large dist_timeout to allow for checkpoint uploading on a slow connection
 
   # Maximum sequence length of the model
