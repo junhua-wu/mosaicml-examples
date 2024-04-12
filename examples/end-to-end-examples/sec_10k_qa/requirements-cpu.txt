@@ -1,6 +1,6 @@
-langchain==0.1.13
-composer[streaming,libcloud,oci,nlp]==0.21.1
-mosaicml-cli==0.6.17
-gradio==4.22.0
-faiss-cpu==1.7.4
-sentencepiece==0.1.99
+langchain==0.1.16
+composer[streaming,libcloud,oci,nlp]==0.21.2
+mosaicml-cli==0.6.20
+gradio==4.26.0
+faiss-cpu==1.8.0
+sentencepiece==0.2.0

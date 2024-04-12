@@ -75,7 +75,7 @@ def parse_args() -> Namespace:
         nargs='*',  
         default=['https://github.com/mosaicml/composer',
                  'https://github.com/mosaicml/streaming',
-                 'https://github.com/mosaicml/examples',
+                 'https://github.com/junhua-wu/mosaicml-examples',
                  'https://github.com/mosaicml/diffusion',
                  'https://github.com/mosaicml/llm-foundry'], 
         required=False,

@@ -38,7 +38,7 @@ Once you have done all of this, you should be ready to get started with this tut
 
 All that is needed for local setup is to clone this repository and install a few dependencies, as the only thing you will be running locally is the final application. Everything else will be run through the MosaicML platform.
 ```bash
-git clone https://github.com/mosaicml/examples
+git clone https://github.com/junhua-wu/mosaicml-examples
 cd examples/examples/end-to-end-examples/support_chatbot
 python -m venv examples-chatbot-venv
 source examples-chatbot-venv/bin/activate
