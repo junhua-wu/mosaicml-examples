@@ -1,5 +1,5 @@
 langchain==0.1.16
-composer[streaming,libcloud,oci,nlp]==0.21.2
+composer[streaming,libcloud,oci,nlp,databricks]==0.21.2
 mosaicml-cli==0.6.20
 gradio==4.26.0
 faiss-cpu==1.8.0
