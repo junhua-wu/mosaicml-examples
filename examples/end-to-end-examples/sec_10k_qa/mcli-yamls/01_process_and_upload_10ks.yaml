@@ -25,4 +25,4 @@ command: |
     --folder_for_upload dbfs:/Volumes/jun_demo/mosaicml-examples/sec_10k_demo/data/sec-10ks-large/ \
     --dataset_subset large_full
 
-image: mosaicml/pytorch:2.2.1_cu121-python3.11-ubuntu20.04 # Use the Docker image provided by MosaicML
+image: mosaicml/pytorch:2.2.1_cpu-python3.11-ubuntu20.04 # Use the Docker image provided by MosaicML
