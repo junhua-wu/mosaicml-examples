@@ -12,7 +12,7 @@ integrations:
 - integration_type: git_repo
   git_repo: mosaicml/llm-foundry
   git_commit: v0.7.0
-  pip_install: -e .[gpu]
+  pip_install: -e .[gpu,databricks]
   ssh_clone: false # Should be true if using a private repo
 # Uncomment and fill in to log to WandB. Also uncomment the loggers section near the bottom of the yaml
 # - integration_type: wandb
