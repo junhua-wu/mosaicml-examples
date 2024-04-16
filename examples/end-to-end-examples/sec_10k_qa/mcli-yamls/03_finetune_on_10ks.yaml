@@ -31,13 +31,13 @@ image: mosaicml/pytorch:2.2.1_cu121-python3.11-ubuntu20.04 # Use the Docker imag
 # See LLM-foundry llmfoundry/scripts/train.py to see how the parameters are used in code
 parameters:
   # Where to read the data from and save it to locally on the machine
-  data_remote: s3://s3-bucket-jh/sec_10k_demo/data/sec-10ks-large-mds/
+  data_remote: dbfs:/Volumes/jun_demo/mosaicml-examples/sec_10k_demo/data/sec-10ks-small-mds/
   data_local: ./local-dataset-cache
 
   # Checkpoint to local filesystem or remote object store
   save_interval: 500ba # How frequently to save checkpoints
   save_num_checkpoints_to_keep: 1  # Important, this cleans up checkpoints saved to DISK
-  save_folder: s3://s3-bucket-jh/sec_10k_demo/checkpoints/{run_name}/
+  save_folder: dbfs:/Volumes/jun_demo/mosaicml-examples/sec_10k_demo/checkpoints/{run_name}/
   save_weights_only: True # Since we only need the weights for the next step, we can reduce the size of the checkpoint
   dist_timeout: 60000 # Set large dist_timeout to allow for checkpoint uploading on a slow connection
 
