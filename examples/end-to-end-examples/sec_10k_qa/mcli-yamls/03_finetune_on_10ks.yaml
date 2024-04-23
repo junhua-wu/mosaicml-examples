@@ -12,7 +12,7 @@ integrations:
 - integration_type: git_repo
   git_repo: mosaicml/llm-foundry
   git_commit: v0.7.0
-  pip_install: -e .[gpu,databricks]
+  pip_install: -e .[gpu]
   ssh_clone: false # Should be true if using a private repo
 # Uncomment and fill in to log to WandB. Also uncomment the loggers section near the bottom of the yaml
 # - integration_type: wandb
@@ -21,6 +21,8 @@ integrations:
 
 # cd into the llm-foundry/scripts directory and run the train.py script
 command: |
+  pip install 'mosaicml-streaming[databricks]'
+  pip install 'triton-pre-mlir@git+https://github.com/vchiley/triton.git@triton_pre_mlir#subdirectory=python'
   cd llm-foundry/scripts
   composer train/train.py /mnt/config/parameters.yaml
 
